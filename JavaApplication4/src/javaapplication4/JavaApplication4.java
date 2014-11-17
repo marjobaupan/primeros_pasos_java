@@ -15,9 +15,8 @@ public class JavaApplication4 {
      * @param args the command line arguments
      */
     static int i;
-    public static void main(String[] args) {
-        // TODO code application logic here
-        for (i=0;i<7;i++){
+    public void primera() {
+    for (i=0;i<7;i++){
             System.out.println(i);
         }
         
@@ -34,7 +33,12 @@ public class JavaApplication4 {
         System.out.println(i);
         
         if (i==8){ System.out.print("Estas son instrucciones basicas");}
-        
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+        JavaApplication4 a;
+        a =new JavaApplication4();
+        a.primera();
     }
     
 }
