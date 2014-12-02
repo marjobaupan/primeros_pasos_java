@@ -1,0 +1,43 @@
+Clases:
+extend
+abstract
+encapsulamiento
+
+ejemplo ser vivo->humano
+		->planta
+		->animal->acuatico
+			->terrestre
+			->aereo
+
+Polimorfismo->multiples formas de un mismo metodo.
+Sumar   ->int
+	->float
+	->double
+
+public class Jugador {
+public void Jugar(){}
+}
+public class Delantero extends Jugador{
+@Override //redefine el metodo de la superclase
+public void Jugar(){}
+}
+
+paquetes (package)->
+
+acceso a la clase->predeterminado-> cualquier clase del mismo paquete.
+			->public ->accesible a cualquier clase o subclase, los atributos static son declarados públicos.
+			->private-> solo por los metodos de la propia clase.
+			->protected->se comporta como privado para todo el mundo menos para los metodos de la misma clase 
+				(diferencia en los paquetes).
+
+métodos sobrecargados-> un metodo declarado con el mismo nombre pero con diferentes atributos.
+|
+
+final vs static -> final nunca varia en el tiempo, static puede cambiar en el tiempo pero esta variable aplica a todas
+			las clases (por lo general es cargada en la superclase).
+
+
+Matrices de objetos, paquetes, class path
+
+subclases, herencia,polimorfismo, controles de acceso, referencias a objetos en las subclases, clases anidadas,
+excepciones, recursividad,hilos, manipulacion en bases de datos.

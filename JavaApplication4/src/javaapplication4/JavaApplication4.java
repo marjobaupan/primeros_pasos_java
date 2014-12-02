@@ -5,6 +5,8 @@
  */
 package javaapplication4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author jonathan
@@ -32,13 +34,31 @@ public class JavaApplication4 {
         
         System.out.println(i);
         
-        if (i==8){ System.out.print("Estas son instrucciones basicas");}
+        if (i==8){ System.out.println("Estas son instrucciones basicas");}
     }
     public static void main(String[] args) {
         // TODO code application logic here
         JavaApplication4 a;
         a =new JavaApplication4();
         a.primera();
+        
+        Factura b;
+        b = new Factura();
+        b.set_nombre('a');
+        System.out.println(b.get_nombre());
+        
+        //Capturar datos de entrada
+        Scanner primera =new Scanner(System.in);
+        System.out.println("Por favor ingresa una cadena:");
+        String linea = primera.nextLine();
+        System.out.println(linea);
+        
+        System.out.print("Ingrese un valor:");
+        int entero = primera.nextInt();
+        
+        int entero1 = Integer.parseInt(linea);
+        System.out.println(entero1);
+        
     }
     
 }
