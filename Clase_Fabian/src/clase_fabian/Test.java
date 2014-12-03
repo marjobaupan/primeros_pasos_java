@@ -25,9 +25,12 @@ public class Test {
      Scanner primera =new Scanner(System.in);
      System.out.println("Por favor seleccione lo que quiere realizar:");
      System.out.println("1. X elevado a Z");
-     System.out.println("2. X factorial");
-     System.out.println("3. X Tipo de numero");
-     System.out.println("4. X Digitos pares e impares.");
+     System.out.println("2. Factorial de un numero ");
+     System.out.println("3. Tipo de numero");
+     System.out.println("4. Sumar numeros pares e impares de un numero.");
+     System.out.println("5. Cubo interesante o narcisista.");
+     System.out.println("6. (x/y)^z.");
+     System.out.println("7. (N+(1+X)!)^x/(X*2)^(N!).");
      System.out.print("Ingrese la opción:");
      int opcion = primera.nextInt();
      
